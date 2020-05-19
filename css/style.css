@@ -1,0 +1,152 @@
+
+/*iPad*/
+@media (min-width:375px) and (max-width:768px){
+    html, body, figure img {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    body {
+        background-image: url(../images/9_768.jpg);
+        background-repeat: no-repeat;
+        padding-top: 360px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 34px;
+    }
+    h3 {
+        font-size: 40px;
+    }
+    h4 {
+        font-size: 36px;
+    }
+    p, ul {
+        font-size: 32px;
+    }
+    figure {
+        font-size: 26px;
+    }
+    blockquote {
+        font-size: 30px;
+    }
+}
+
+/*iPhone 6,7,8*/
+@media (max-width:375px){
+    html, body, figure img {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    body {
+        background-image: url(../images/9\ _375.jpg);
+        background-repeat: no-repeat;
+        padding-top: 113px;
+        overflow-x: hidden;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 21px;
+    }
+    p, ul {
+        font-size: 16px;
+    }
+    figure {
+        font-size: 13px;
+    }
+    blockquote {
+        font-size: 17px;
+    }
+}
+
+/*PC*/
+@media (min-width:769px) and (max-width:1920px){
+    body{
+        width: 960px;
+        overflow-x: hidden;
+        background-image: url(../images/9_1080.jpg);
+        background-repeat: no-repeat;
+        padding-top: 480px;  
+    }
+    figure img {
+        width: 70%;
+        height: 70%;
+    }
+    h1 {
+        font-size: 60px;
+    }
+}
+
+html {
+    background-image: url(../images/back_body.png);
+    font-family: Arial;
+}
+    
+body {
+    margin: 0 auto;
+    background-color: white;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+figure {
+    text-align: center;
+}
+
+div{
+    background-color: rgba(255, 255, 255, .4);
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, .8) 0 1px 0;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    text-shadow: blanchedalmond 2px 2px 2px;
+}
+
+h2, h3, h4, p, blockquote, ul {
+    font-style: italic;
+}
+
+h2 {
+     margin: 20px 25px 0 30px;
+     padding-top: 20px;
+ }
+
+h3 {
+    border-bottom: 2px solid darkslateblue;
+    margin: 20px 25px 0 30px;
+    padding-top: 20px;
+    color: darkblue;
+}
+
+h4 {
+    margin: 20px 25px 0 30px;
+    color: orangered;
+}
+
+p, ul {
+    padding: 0 30px 0px 40px;
+    text-align: justify;
+}
+
+blockquote {
+    padding: 0 30px 0 30px;
+}
+
+.achievements {
+    color: darkred;
+}
